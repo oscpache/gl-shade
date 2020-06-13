@@ -41,7 +41,7 @@ Important notes
     
     -> You can use the run_glshade bash file to run this code as follows: ./run_glshade popsize1 popsize2 Rseed ID 
     
-    -> You can use the run25executions_glshade bash file to perform 25 GL-SHADE's independent runs of every objective       function as follows: ./run25executions_glshade
+    -> You can use the run25executions_glshade bash file to perform 25 GL-SHADE's independent runs of every objective function as follows: ./run25executions_glshade
     
     -> Note how the objective function is chosen at compilation time and such function 
        identifier is confirmed when running the ./a.out program [see the 4th argument] 
