@@ -3,14 +3,21 @@ A SHADE-Based Algorithm for Large Scale Global Optimization
 
 # Overall description
 Algorithm: GL-SHADE
+
 Author: CINVESTAV-IPN (Evolutionary Computation Group)
+
 Implemented using: C++/CUDA + OpenMP
+
 Year: 2020
+
 Requirements: CUDA version 7.0 or higher (since syntax c++11 is used)   
 
 For compiling and executing on a linux like operating system
+
     -> For compiling use: nvcc glshade.cu -o a.out -std=c++11 -O2 -D=fID -Xcompiler -fopenmp
+    
     -> It is no necessary to set the OMP_NUM_THREADS variable since the program uses always 4 threads by default 
+    
     -> Run: ./a.out popsize1 popsize2 Rseed ID
 
 About input arguments 
