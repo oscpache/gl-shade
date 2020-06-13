@@ -14,7 +14,7 @@ Algorithm: GL-SHADE
 
 For compiling and executing on a linux like operating system
 
-    -> For compiling use: nvcc glshade.cu -o a.out -std=c++11 -O2 -D=fID -Xcompiler -fopenmp
+    -> Compile: nvcc glshade.cu -o a.out -std=c++11 -O2 -D=fID -Xcompiler -fopenmp
     
     -> It is no necessary to set the OMP_NUM_THREADS variable since the program uses always 4 threads by default 
     
