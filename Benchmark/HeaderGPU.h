@@ -5,7 +5,7 @@ X. Li, K. Tang, M. Omidvar, Z. Yang and K. Qin,
 Technical Report, Evolutionary Computation and Machine Learning Group,
 RMIT University, Australia, 2013.
 
-There already is a CPU based implementation of such benchmark set (visit:http://www.tflsgo.org/special_sessions/cec2019#benchmark-competition),
+There is already a CPU based implementation of such benchmark set (visit:http://www.tflsgo.org/special_sessions/cec2019#benchmark-competition),
 however the present implementation is GPU based. 
 */
 /******************************************************************************/
