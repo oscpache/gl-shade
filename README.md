@@ -35,9 +35,13 @@ Execution example using f4 as objective funtion, popsize1 = 100 , popsize2 = 75 
  
 Important notes
 
+    -> The CEC'13 LSGO benchmark is used
+
     -> The code was tested using CUDA version 10.2 and Ubuntu 18.04 as operating system 
     
     -> You can use the run_glshade bash file to run this code as follows: ./run_glshade popsize1 popsize2 Rseed ID 
+    
+    -> You can use the run25executions_glshade bash file to perform 25 GL-SHADE's independent runs of every objective       function as follows: ./run25executions_glshade
     
     -> Note how the objective function is chosen at compilation time and such function 
        identifier is confirmed when running the ./a.out program [see the 4th argument] 
