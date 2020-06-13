@@ -37,10 +37,10 @@ Important notes
 
     -> The CEC'13 LSGO benchmark is used
 
-    -> The code was tested using CUDA version 10.2 and Ubuntu 18.04 as operating system 
+    -> The code was tested using Ubuntu 18.04 as operating system and a GeForce GTX 680 GPU with the CUDA 10.2 version
     
-    -> You can use the run_glshade bash file to run this code as follows: ./run_glshade popsize1 popsize2 Rseed ID 
+    -> You can use the run_glshade bash file to run this code as follows: bash run_glshade.sh popsize1 popsize2 Rseed ID 
     
-    -> You can use the run25executions_glshade bash file to perform 25 GL-SHADE's independent runs of every objective function as follows: ./run25executions_glshade
+    -> You can use the run25executions_glshade bash file to perform 25 GL-SHADE's independent runs of every objective function as follows: bash run25executions_glshade.sh
     
     -> Note how the objective function is chosen at compilation time and such function identifier is confirmed when running the ./a.out program [see the 4th argument] 
