@@ -12,7 +12,7 @@ Algorithm: GL-SHADE
 
     -> Requirements: CUDA version 7.0 or higher (since syntax c++11 is used)   
 
-For compiling and executing on a linux like operating system
+Compiling and executing on a linux like operating system
 
     -> Compile: nvcc glshade.cu -o a.out -std=c++11 -O2 -D=fID -Xcompiler -fopenmp
     
@@ -20,7 +20,7 @@ For compiling and executing on a linux like operating system
     
     -> Run: ./a.out popsize1 popsize2 Rseed ID
 
-About input arguments 
+Input arguments 
 
     -> Rseed must range from 0.0 to 1.0 [float]
     
