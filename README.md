@@ -28,10 +28,10 @@ Input arguments
     
     -> ID is the objective function identifier; 1 <= ID <= 15 [int] 
 
-Execution example using f4 as objective funtion, popsize1 = 100 , popsize2 = 75 and Rseed = 0.44
+Execution example using f7 as objective funtion, popsize1 = 100 , popsize2 = 75 and Rseed = 0.44
 
-    -> $ nvcc glshade.cu -o a.out -std=c++11 -O2 -D=f4 -Xcompiler -fopenmp
-    -> $ ./a.out 100 75 0.44 4
+    -> $ nvcc glshade.cu -o a.out -std=c++11 -O2 -D=f7 -Xcompiler -fopenmp
+    -> $ ./a.out 100 75 0.44 7
  
 Important notes
 
