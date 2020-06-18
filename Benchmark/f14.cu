@@ -89,7 +89,7 @@ double F_H(double *x)
   double Z[100];
   double Y[100];
   int j,t,c,l;
-  double s1,s2,reg,result;
+  double s1,s2,result;
 
   c = 0;
   result = 0.0;
