@@ -48,8 +48,7 @@ __global__ void init_population(curandState *state,ind *pop,int NP)
 __global__ void shade_engine(curandState *state,evol_data_struct *dat,ind *pop,rank_ind *rank,ind *memory,ind *child,int NP)
 {
 	/*This function evolves population by applying mutation and recombination operators 
-	according to shade algorithm. An individual is processed by a block and threads 
-	within that block process that individual variables*/
+	according to shade algorithm. An individual is processed by a block*/
 	int i = blockIdx.x; //block identifier (bid) 
 	int j = threadIdx.x; // thread identifier (tid) within block
 	int randState_tid = blockIdx.x*blockDim.x + threadIdx.x;
@@ -100,8 +99,7 @@ __global__ void shade_engine(curandState *state,evol_data_struct *dat,ind *pop,r
 __global__ void eshade_ls_engine(evol_data_struct2 *dat,ind *pop,rank_ind *rank,ind *memory,ind *child,int NP)
 {
 	/*This function evolves population by applying mutation and recombination operators 
-	according to eshade_ls algorithm. An individual is processed by a block and threads 
-	within that block process that individual variables*/
+	according to eshade_ls algorithm. An individual is processed by a block*/
 	int i = blockIdx.x; //block identifier (bid)
 	int j = threadIdx.x; // thread identifier (tid) within block
 	__shared__ double F; //stored in shared memory
