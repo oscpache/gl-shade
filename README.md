@@ -22,7 +22,7 @@ nvcc glshade.cu -O2 -D=f13 -Xcompiler -fopenmp
 ```
 
 ### Run
-Once the problem has been set, you can run the a.out program provided 3 input arguments: NP1, NP2 and Reseed. The population size must be a positive number bigger or equal to 4 and the RNG seed must be a real number within the interval [0.0,1.0]. The following example shows an execution where NP1 = 85, NP2 = 54 and Rseed = 0.7:
+Once the problem has been set, you can run the a.out program provided 3 input arguments: NP1, NP2 and Reseed. The population size must be a positive number bigger or equal to 4 and the RNG seed must be a real number within the interval [0.0,1.0]. The following example shows an execution where NP1 = 85, NP2 = 54 and Rseed = 0.76:
 
 ```
 ./a.out 85 54 0.76
