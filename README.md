@@ -25,3 +25,11 @@ Explain what these tests test and why
 ```
 a.out 85 54 0.76
 ```
+
+### Compile and run easily
+
+Explain what these tests test and why
+
+```
+bash run.sh 100 100 0.32 2
+```
