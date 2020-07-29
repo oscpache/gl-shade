@@ -91,7 +91,7 @@ int main(int argc, char const *argv[])
 	/******************************************************************************/
 	/////////////////////////////PRELIMINARIES//////////////////////////////////
 	/******************************************************************************/
-    //Make sure 4 input arguments were given 
+    //Make sure 3 input arguments were given 
     if((argc-1) != 3)
     {
         printf("Error: 3 input arguments expected\n");
