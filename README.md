@@ -8,7 +8,7 @@ The implementation was tested using a pc with ubuntu 18.04 as operating system a
 
 ## Running the program 
 
-The number of threads and blocks when using the GPU as well as the number of CPU cores activated when using OpenMP are predefined at the top of the main program named glshade.cu but we encourage you to modify them according to you GPU and CPU hardware. So, for running the main program just 4 parameters have to be defined named: population size 1, population size 2, random number generator seed and problem (the one to be adopted as the objective function) identifier.  
+The number of threads and blocks when using the GPU as well as the number of CPU cores activated when using OpenMP are predefined at the top of the main program named glshade.cu but we encourage you to modify them according to you GPU and CPU hardware. So, for running the main program just 4 parameters have to be defined: population size 1, population size 2, random number generator seed and problem (the one to be adopted as the objective function) identifier.  
 
 ### Compile
 
