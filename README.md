@@ -33,5 +33,5 @@ Once the problem has been set, you can run the a.out program provided 3 input ar
 You can use the run.sh file provided as a shortcut for compiling and executing. The following example shows how to run GL-SHADE where NP1 and NP2 are set to 100, Rseed is set to 0.76 and f2 is set as the objective function.   
 
 ```
-bash run.sh 100 100 0.32 2
+bash run.sh 100 100 0.36 2
 ```
