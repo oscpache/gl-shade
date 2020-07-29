@@ -12,10 +12,13 @@ The number of threads and blocks when using the GPU as well as the number of CPU
 
 ### Compile
 
-Explain what these tests test and why
-
+The test suite is composed of 15 problems and you can set any of them, but it must be done at compilation time. In the following example it's showed how to compile the main program adopting f7 as the objective function:    
 ```
 nvcc glshade.cu -O2 -D=f7 -Xcompiler -fopenmp
+```
+Similarly, we can choose f13 as the objective function as follows:
+```
+nvcc glshade.cu -O2 -D=f13 -Xcompiler -fopenmp
 ```
 
 ### Run
