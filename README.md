@@ -8,7 +8,7 @@ The implementation was tested using a pc with an Intel(R) Core(TM) i7-3930K @ 3.
 
 ## Running the program 
 
-The number of threads and blocks when using the GPU as well as the number of CPU cores activated when using OpenMP are predefined at the top of the main program named glshade.cu but we encourage you to modify them according to you GPU and CPU hardware. So, for running the main program just 4 parameters have to be defined: population size 1, population size 2, random number generator seed and problem (the one to be adopted as the objective function) identifier.  
+The number of threads and blocks when using the GPU as well as the number of CPU cores activated when using OpenMP are predefined at the top of the main program named glshade.cu but we encourage you to modify them according to you GPU and CPU hardware. So, for running the main program just 4 parameters have to be defined: population size 1 (NP1), population size 2 (NP2), random number generator seed (Rseed) and problem (the one to be adopted as the objective function) identifier.  
 
 ### Compile
 
@@ -22,11 +22,10 @@ nvcc glshade.cu -O2 -D=f13 -Xcompiler -fopenmp
 ```
 
 ### Run
-
-Explain what these tests test and why
+Once the problem has been set, you can run the a.out program provided 3 input arguments: NP1, NP2 and Reseed. A population size must be a positive number bigger or equal to 4 and the RNG seed must the a real number within the interval [0.0,1.0]. The following example shows an execution where NP1 = 85, NP2 = 54 and Rseed = 0.7:
 
 ```
-a.out 85 54 0.76
+./a.out 85 54 0.76
 ```
 
 ### Compile and run easily
