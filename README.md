@@ -1,5 +1,4 @@
 # GL-SHADE
-### GL-SHADE-CUDA
 This source code implements the GL-SHADE algorithm presented in the paper "A SHADE-Based Algorithm for Large Scale Global Optimization" at the PPSN 2020 international conference. Here it´s showed a parallell implementation of GL-SHADE using CUDA + OpenMP and adopting the CEC'13 LSGO Benchmark test suite. Futher, all test functions are implemented in both CUDA and OpenMP; the gpu based implementation of a test problem is used most of the time but in very special cases the OpenMP based implementation is employed.
 
 ### GL-SHADE-PYTHON
